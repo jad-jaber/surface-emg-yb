@@ -3,7 +3,7 @@ import { title, subtitle } from "@/components/primitives";
 
 export default function Hero() {
   return (
-    <section className="relative flex flex-col items-left justify-center gap-4 py-8 md:px-8 md:py-10 h-1/2 md:h-full w-full overflow-hidden">
+    <section className="relative flex flex-col items-left justify-center gap-4 py-8 md:px-8 md:py-10 h-[80vh] md:h-[85vh] w-full overflow-hidden">
         <video src="/best-use-mr-emg-no-audio.mp4"
             className="absolute top-0 left-0 w-full h-full object-cover"
             autoPlay
