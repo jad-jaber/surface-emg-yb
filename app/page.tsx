@@ -6,9 +6,9 @@ export default function Home() {
   return (
     <>
       <Hero/>
-      <ImgContentRow/>
-      <ImgContentRow/>
-      <ImgContentRow/>
+      <ImgContentRow index={1} title="TITLE" img="https://placehold.co/500x500" text="Image 1" />
+      <ImgContentRow index={2} title="TITLE" img="https://placehold.co/500x500" text="Image 1" />
+      <ImgContentRow index={3} title="TITLE" img="https://placehold.co/500x500" text="Image 1" />
     </>
   );
 }
