@@ -17,9 +17,9 @@ const ImgContentRow: React.FC<ContentRowProps> = ({ title, img, text, index }) =
             }`}
         >
             {/* Text content */}
-            <div className="flex flex-col items-center justify-center w-full max-w-xl space-y-2 text-center">
+            <div className="flex flex-col justify-center w-full max-w-xl space-y-2">
                 <h2 className="text-xl font-semibold">{title}</h2>
-                <p className="text-gray-600">{text}</p>
+                <p className="text-gray-500 text-left">{text}</p>
             </div>
 
             {/* Image */}
