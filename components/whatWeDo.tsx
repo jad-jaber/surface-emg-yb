@@ -4,9 +4,9 @@ export default function WhatWeDo(){
 
 
   return(
-  <div className="width-full flex justify-center items-center">
-    <div className="flex p-[24px] bg-black flex-col md:flex-column items-center justify-center md:w-1/2 space-y-4 md:space-y-0 md:space-x-4">
-        <div className="">
+  <div className="width-full flex justify-center items-center h-full">
+    <div className="flex p-[24px] flex-col md:flex-column items-center justify-center md:w-1/2 space-y-4 md:space-y-0 md:space-x-4">
+        <div>
           <h2 className="text-xl font-semibold">WHAT WE DO</h2>
         </div>
         <div className="flex-shrink-0 md:w-full">
