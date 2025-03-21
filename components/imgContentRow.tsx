@@ -12,7 +12,7 @@ interface ContentRowProps {
 const ImgContentRow: React.FC<ContentRowProps> = ({ title, img, text, index }) => {
     return (
         <div
-            className={`flex p-[24px] flex-col md:flex-row items-center justify-around w-full space-y-4 md:space-y-0 md:space-x-4 ${
+            className={`flex p-[24px] gap-8 flex-col md:flex-row items-center justify-around w-full space-y-4 md:space-y-0 md:space-x-4 ${
                 index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
             }`}
         >

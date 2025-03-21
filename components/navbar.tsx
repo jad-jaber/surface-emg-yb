@@ -20,8 +20,8 @@ export default function MyNavbar() {
 
   return (
     <Navbar onMenuOpenChange={setIsMenuOpen} 
-      // isBordered
-      className="md:h-[7rem] w-full sticky top-0 inset-x-0 z-40 backdrop-blur-lg bg-background/70"
+      isBordered
+      className="md:h-[7rem] w-full sticky top-0 inset-x-0 z-40 backdrop-blur-lg bg-background/80"
       >
       
       <NavbarContent>
